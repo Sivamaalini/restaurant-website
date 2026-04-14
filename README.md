@@ -1,4 +1,5 @@
-# Spice Garden Restaurant Website
+## Live Demo
+https://your-netlify-link.netlify.app# Spice Garden Restaurant Website
 
 A responsive restaurant website built using HTML, CSS and JavaScript.
 
