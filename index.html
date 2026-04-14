@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spice Garden | Authentic Indian Restaurant</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+  <nav class="navbar">
+    <h1 class="logo">SpiceGarden</h1>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#">Home</a></li>
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#features">Why Us</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="hamburger" onclick="toggleMenu()">☰</div>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="hero-content">
+    <h2>Experience the Real Taste of India</h2>
+    <p>Luxury dining experience with authentic spices & modern ambience</p>
+    <div class="hero-buttons">
+      <button onclick="scrollToMenu()">Explore Menu</button>
+      <button class="outline">Book Table</button>
+    </div>
+  </div>
+</section>
+
+<section class="stats">
+  <div class="stat"><h3>10+</h3><p>Years Experience</p></div>
+  <div class="stat"><h3>50k+</h3><p>Happy Customers</p></div>
+  <div class="stat"><h3>4.8★</h3><p>Google Rating</p></div>
+</section>
+
+<section id="menu" class="menu">
+  <h2>Chef’s Specials</h2>
+  <div class="menu-grid">
+    <div class="card"><h3>Butter Chicken</h3><p>Rich creamy tomato gravy</p></div>
+    <div class="card"><h3>Paneer Tikka</h3><p>Charcoal grilled perfection</p></div>
+    <div class="card"><h3>Hyderabadi Biryani</h3><p>Aromatic basmati & spices</p></div>
+    <div class="card"><h3>Masala Dosa</h3><p>South Indian classic</p></div>
+  </div>
+</section>
+
+<section id="features" class="features">
+  <h2>Why Choose Us</h2>
+  <div class="features-grid">
+    <div class="feature">
+      <h3>Fresh Ingredients</h3>
+      <p>We use farm-fresh vegetables & premium spices.</p>
+    </div>
+    <div class="feature">
+      <h3>Expert Chefs</h3>
+      <p>Our chefs bring 10+ years of culinary mastery.</p>
+    </div>
+    <div class="feature">
+      <h3>Luxury Ambience</h3>
+      <p>Perfect place for family & celebrations.</p>
+    </div>
+  </div>
+</section>
+
+<section class="testimonial">
+  <h2>What Customers Say</h2>
+  <p class="quote">“Best Indian restaurant in the city. Amazing food and service!”</p>
+  <span>— Happy Customer</span>
+</section>
+
+<section id="contact" class="contact">
+  <div class="booking-container">
+    <div class="booking-text">
+      <h2>Reserve Your Table</h2>
+      <p>Book your dining experience in advance and skip the waiting time.</p>
+      <ul>
+        <li>✔ Instant confirmation</li>
+        <li>✔ Perfect for family & events</li>
+        <li>✔ Open daily 10AM – 11PM</li>
+      </ul>
+    </div>
+
+    <div class="booking-form">
+      <h3>Book Now</h3>
+      <form onsubmit="return validateForm()">
+        <input type="text" id="name" placeholder="Full Name">
+        <input type="email" id="email" placeholder="Email Address">
+        <input type="date" id="date">
+        <input type="time" id="time">
+        <input type="number" id="guests" placeholder="Number of Guests">
+        <textarea id="message" placeholder="Special Requests"></textarea>
+        <button type="submit">Reserve Table</button>
+      </form>
+      <p id="formMessage"></p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <h2>SpiceGarden</h2>
+  <p>Authentic Indian Dining Experience</p>
+  <span>© 2026 All rights reserved</span>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
