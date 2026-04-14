@@ -1,5 +1,5 @@
 ## Live Demo
-https://your-netlify-link.netlify.app  #Spice Garden Restaurant Website
+glittering-nasturtium-82f1ad.netlify.app  #Spice Garden Restaurant Website
 
 A responsive restaurant website built using HTML, CSS and JavaScript.
 
